@@ -1,0 +1,102 @@
+@font-face {
+	font-family: "CleanvertisingLight";
+	src: url("../fonts/CleanvertisingLight/CleanvertisingLight.eot");
+	src: url("../fonts/CleanvertisingLight/CleanvertisingLight.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/CleanvertisingLight/CleanvertisingLight.woff") format("woff"),
+	url("../fonts/CleanvertisingLight/CleanvertisingLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* font-family: "RobotoRegular";  */
+
+@font-face {
+	font-family: "RobotoRegular";
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+	url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "RobotoLight"; */
+@font-face {
+	font-family: "RobotoLight";
+	src: url("../fonts/RobotoLight/RobotoLight.eot");
+	src: url("../fonts/RobotoLight/RobotoLight.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/RobotoLight/RobotoLight.woff") format("woff"),
+	url("../fonts/RobotoLight/RobotoLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "RobotoMedium"; */
+@font-face {
+	font-family: "RobotoMedium";
+	src: url("../fonts/RobotoMedium/RobotoMedium.eot");
+	src: url("../fonts/RobotoMedium/RobotoMedium.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/RobotoMedium/RobotoMedium.woff") format("woff"),
+	url("../fonts/RobotoMedium/RobotoMedium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "RobotoBold"; */
+@font-face {
+	font-family: "RobotoBold";
+	src: url("../fonts/RobotoBold/RobotoBold.eot");
+	src: url("../fonts/RobotoBold/RobotoBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/RobotoBold/RobotoBold.woff") format("woff"),
+	url("../fonts/RobotoBold/RobotoBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+    font-family: 'myFont';
+    src: url('../libs/myFont/myfont-webfont.woff2') format('woff2'),
+         url('../libs/myFont/myfont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.my {
+	font-family: 'myFont';
+	font-size: 32px;
+	display: inline-block;
+	font-style: normal;
+	text-rendering: auto;
+	text-transform: lowercase !important;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.my.my_a::before{
+	content: 'a';
+}
+.my.my_b::before{
+	content: 'b';
+}
+.my.my_c::before{
+	content: 'c';
+}
+.my.my_d::before{
+	content: 'd';
+}
+.my.my_e::before{
+	content: 'e';
+}
+.my.my_f::before{
+	content: 'f';
+}
+.my.my_g::before{
+	content: 'g';
+}
+.my.my_h::before{
+	content: 'h';
+}
+.my.my_i::before{
+	content: 'i';
+}
+.my.my_k::before{
+	content: 'k';
+}

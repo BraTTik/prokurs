@@ -1,0 +1,54 @@
+#comments
+    min-height: 500px
+    background-image: url("../img/middle_bg.jpg")
+    background-repeat: x-repeat
+    background-attachment: fixed
+    background-size: cover
+    background-position: center 0
+    .img-wrap
+        text-align: center
+        img
+            width: 165px
+            height: 165px
+            border: 10px solid #696A6A
+            border-radius: 50%
+    .hr
+        width: 200px
+        height: 2px
+        background-color: #B19178
+        margin: 25px auto
+    p
+        width: 66.666666%
+        font-family: "Times New Roman", serif
+        font-size: 15px
+        margin: auto
+
+
+    .swiper-container
+        color: #ffffff
+        .next-btn,
+        .prev-btn
+            position: absolute
+            width: 70px
+            height: 70px
+            opacity: .5
+            border-top: 2px solid rgba(255, 255, 255, 1)
+            border-left: 2px solid rgba(255, 255, 255, 1)
+            position: absolute
+            display: block
+            cursor: pointer
+            z-index: 10
+            top: 60px
+            &:hover
+                opacity: 1
+            
+        .next-btn
+            transform: rotate(-45deg) skew(-14deg, -14deg)
+            left: 10px
+        .prev-btn
+            transform: rotate(135deg) skew(-14deg, -14deg)
+            right: 10px
+        .swiper-slide
+            text-align: center
+
+

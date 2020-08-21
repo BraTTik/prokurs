@@ -1,0 +1,35 @@
+#map
+    h2
+        color: #000000
+        margin-right: 20px
+        margin-bottom: 0
+        font-size: 45px
+    .tabs
+        font-size: 0
+        .tab
+            font-size: 16px
+            &.button:first-child
+                border-right: none
+                border-top-right-radius: 0
+                border-bottom-right-radius: 0
+            &.button:last-child
+                border-left: none
+                border-top-left-radius: 0
+                border-bottom-left-radius: 0
+            &.button
+                padding: 5px 60px
+                transition: all .2s ease
+                border: 3px solid $red-color
+                background-color: #fff
+                color: $red-color
+                &.active
+                    background-color: $red-color
+                    color: #ffffff  
+    .tab_content
+        text-align: center
+        margin-top: 20px
+    .map-wrapper
+        min-height: 450px
+        background-color: #E2D6B0
+
+
